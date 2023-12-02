@@ -1,0 +1,20 @@
+#sobre_mim {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20%;
+    /* background-image: url('https://img.freepik.com/vetores-gratis/floresta-do-deserto-de-silhueta-na-hora-do-por-do-sol_1308-92392.jpg');
+    background-position: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 30px; */
+}
+
+#sobre_mim > img{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+}
+
+.sobre_mim{
+    margin-left: 20px;
+}
