@@ -1,0 +1,14 @@
+header > nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar > ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+#navbar > a {
+    
+}
