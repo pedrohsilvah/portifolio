@@ -1,5 +1,25 @@
 * {
     padding: 0px;
     margin: 0px;
+    color: var(--cor1);
 }
 
+:root {
+    --cor1:  #fcfcfc;
+    --cor2:  #231d1e;
+    --cor3:  #ff8207;
+    --cor4:  #d53d0c;
+    --cor5:  #880606;
+}
+
+body {
+    background-color: var(--cor2);
+}
+
+h1, h2 {
+    color: var(--cor3);
+}
+
+a {
+    color: var(--cor4);
+}

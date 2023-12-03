@@ -2,20 +2,19 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 20%;
-    background-image: url('img/2b74dbae3404bd472f384e88f7e11056.jpg');
+    background-image: url('');
     background-position: 100%;
     background-repeat: no-repeat;
-    color: white;
+    color: black;
     padding: 30px;
-    
 }
 
-#inicio > img{
-    width: 50%;
-    margin: auto;
-    justify-content: center;
-}
-
-.inicio_class{
+.inicio_class {
     margin-left: 20px;
 }
+
+#inicio > img {
+    width: 50%;
+    margin: auto;
+}
+
