@@ -41,6 +41,7 @@ header > nav {
     height: 2px;
     background: #fff;
     margin: 8px;
+    transition: 0.3s;
 }
 
 @media (max-width: 999px) {
@@ -59,6 +60,7 @@ header > nav {
         align-items: center;
         justify-content: space-around;
         transform: translateX(100%);
+        transition: transform 0.3s ease-in;
     }
 
     .nav-list li {
@@ -73,4 +75,28 @@ header > nav {
 
 .nav-list.active {
     transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+    form {
+        opacity: 0;
+        transform: translate(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-12px, 14px);
+}
+
+.mobile-menu .line2 {
+    opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(0px, 0px);
 }
