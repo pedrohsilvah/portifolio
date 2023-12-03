@@ -3,6 +3,8 @@ header > nav {
     justify-content: space-between;
     height: 8vh;
     align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #navbar > ul {

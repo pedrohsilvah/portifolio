@@ -1,7 +1,4 @@
 #inicio {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20%;
     background-image:linear-gradient(rgba(17, 17, 17, 0.658), rgba(20, 20, 20, 0.384)), url(../img/fundo_jp.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,15 +6,19 @@
     background-attachment: fixed;
     padding: 30px;
     height: 80vh;
+    align-items: center;
 }
 
 .inicio_class {
     margin-left: 20px;
 }
 
+#inicio > h1 {
+
+}
+
 #inicio > img {
     width: 85%;
-    margin: auto;
 
 }
 
