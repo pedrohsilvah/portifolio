@@ -1,23 +1,35 @@
+@font-face {
+    font-family: 'kat';
+    src: url('../fontes/Katanf.ttf') format('truetype');
+}
+
 * {
     padding: 0px;
     margin: 0px;
-    color: var(--cor1);
+    color: var(--cor2);
 }
 
 :root {
-    --cor1:  #fcfcfc;
+    /* --cor1:  #fcfcfc;
     --cor2:  #231d1e;
     --cor3:  #ff8207;
     --cor4:  #d53d0c;
-    --cor5:  #880606;
+    --cor5:  #880606; */
+
+    --cor1:  #0D0D0D;
+    --cor2:  #F2B694;
+    --cor3:  #D99D55;
+    --cor4:  #A6384C;
+    --cor5:  #731F26;
 }
 
 body {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
 }
 
 h1, h2 {
-    color: var(--cor3);
+    font-family: 'kat';
+    color: rgb(255, 255, 255);
 }
 
 a {

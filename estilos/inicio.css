@@ -2,11 +2,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 20%;
-    background-image: url('');
-    background-position: 100%;
+    background-image:linear-gradient(rgba(17, 17, 17, 0.658), rgba(20, 20, 20, 0.384)), url(../img/fundo_jp.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    color: black;
+    background-position: center;
+    background-attachment: fixed;
     padding: 30px;
+    height: 80vh;
 }
 
 .inicio_class {
@@ -14,7 +16,8 @@
 }
 
 #inicio > img {
-    width: 50%;
+    width: 85%;
     margin: auto;
+
 }
 
