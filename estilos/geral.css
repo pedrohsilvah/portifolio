@@ -14,19 +14,27 @@
     --cor3:  #24344c;
     --cor4:  #f69c75;
     --cor5:  #f24c6a;
+    --cor6: #fff;
 }
 
 body {
     background-color: var(--cor3);
 }
 
-
-
 h1, h2, h3 {
     color: var(--cor5);
+}
+
+p {
+    color: var(--cor6);
 }
 
 a {
     color: var(--cor1);
     text-decoration: none;
+}
+
+section {
+    margin-left: 10px;
+    margin-right: 10px;
 }

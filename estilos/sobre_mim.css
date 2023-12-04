@@ -5,3 +5,24 @@
     --cor4:  #f69c75;
     --cor5:  #f24c6a;
 }
+
+#sobre-mim {
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 10px;
+
+}
+
+#sobre-mim > h2{
+    text-align: center;
+}
+
+#sobre-mim img {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
