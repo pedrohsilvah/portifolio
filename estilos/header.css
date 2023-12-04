@@ -37,9 +37,21 @@ header > nav {
 }
 
 #navbar > h1 {
+    color: var(--cor1);
+    font-family: 'katan';
     font-size: 24px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.nav-p {
+    color: var(--cor5);
+    font-family: 'katan';
+}
+
+.nav-h {
+    color: var(--cor4);
+    font-family: 'katan';
 }
 
 .mobile-menu {

@@ -17,6 +17,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 70px 2% 0;
+    
 }
 
 .inicio-h {
@@ -35,6 +36,11 @@
     font-weight: 700;
 }
 
+/* dá um espaçamento em margem no link do h3 (gambiarra) */
+.inicio-h3-space-link  {
+    margin-bottom: 15px;
+}
+
 .inicio-h > h3 span {
     color: var(--cor4);
 }
@@ -44,3 +50,16 @@
     max-width: 450px;
 }
 
+#inicio a {
+    margin-left: 10px;
+    border: 1px solid var(--cor4);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#inicio a:hover {
+    color: var(--cor4);
+    background-color: var(--cor5);
+    transition: 1s;
+    border: 1px solid var(--cor3);
+}
