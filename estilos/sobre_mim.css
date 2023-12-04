@@ -7,22 +7,34 @@
 }
 
 #sobre-mim {
-    justify-content: center;
-    margin: auto;
-    align-items: center;
     margin-left: 12px;
     margin-right: 10px;
 
 }
 
-#sobre-mim > h2{
+#sobre-mim > h2 {
+    text-align: center;
+    display: block;
+}
+
+#sobre-mim > h3 {
     text-align: center;
 }
 
-#sobre-mim img {
+.my-foto{
     width: 300px;
-    display: flex;
+    display: flex;  
     justify-content: center;
     margin: auto;
     align-items: center;
+}
+
+.caixa-sobre-mim {
+    background-color: var(--cor4);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.caixa-sobre-mim p {
+    color: var(--cor3);
 }
