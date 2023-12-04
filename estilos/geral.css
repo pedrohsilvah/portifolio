@@ -6,32 +6,27 @@
 * {
     padding: 0px;
     margin: 0px;
-    color: var(--cor2);
 }
 
 :root {
-    /* --cor1:  #fcfcfc;
-    --cor2:  #231d1e;
-    --cor3:  #ff8207;
-    --cor4:  #d53d0c;
-    --cor5:  #880606; */
-
-    --cor1:  #0D0D0D;
-    --cor2:  #F2B694;
-    --cor3:  #D99D55;
-    --cor4:  #A6384C;
-    --cor5:  #731F26;
+    --cor1:  #dabdb5;
+    --cor2:  #ae565a;
+    --cor3:  #24344c;
+    --cor4:  #f69c75;
+    --cor5:  #f24c6a;
 }
 
 body {
-    background-color: var(--cor1);
+    background-color: var(--cor3);
 }
 
-h1, h2 {
-    font-family: 'kat';
-    color: rgb(255, 255, 255);
+
+
+h1, h2, h3 {
+    color: var(--cor5);
 }
 
 a {
-    color: var(--cor4);
+    color: var(--cor1);
+    text-decoration: none;
 }

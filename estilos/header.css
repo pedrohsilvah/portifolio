@@ -1,3 +1,11 @@
+:root {
+    --cor1:  #dabdb5;
+    --cor2:  #ae565a;
+    --cor3:  #24344c;
+    --cor4:  #f69c75;
+    --cor5:  #f24c6a;
+}
+
 header > nav {
     display: flex;
     justify-content: space-between;
@@ -16,15 +24,16 @@ header > nav {
 #navbar > ul > li {
     letter-spacing: 2px;
     margin-left: 32px;
-    
 }
 
-#navbar > a {
+#navbar li > a {
     padding-block: 15px;
 }
 
-#navbar > a:hover {
+#navbar li > a:hover {
+    color: #fff;
     opacity: 0.7;
+    text-decoration: solid;
 }
 
 #navbar > h1 {

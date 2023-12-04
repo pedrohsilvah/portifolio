@@ -1,24 +1,46 @@
+:root {
+    --cor1:  #dabdb5;
+    --cor2:  #ae565a;
+    --cor3:  #24344c;
+    --cor4:  #f69c75;
+    --cor5:  #f24c6a;
+}
+
 #inicio {
     background-image:linear-gradient(rgba(17, 17, 17, 0.658), rgba(20, 20, 20, 0.384)), url(../img/fundo_jp.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    padding: 30px;
-    height: 80vh;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 70px 2% 0;
 }
 
-.inicio_class {
-    margin-left: 20px;
+.inicio-h {
+    max-width: 600px;
 }
 
-#inicio > h1 {
-
+.inicio-h > h1 {
+    display: flex;
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
 }
 
-#inicio > img {
-    width: 85%;
+.inicio-h > h3{
+    font-size: 32px;
+    font-weight: 700;
+}
 
+.inicio-h > h3 span {
+    color: var(--cor4);
+}
+
+
+.inicio-img > img {
+    max-width: 450px;
 }
 
