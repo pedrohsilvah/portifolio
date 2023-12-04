@@ -6,7 +6,9 @@
     --cor5:  #f24c6a;
 }
 
-#sobre-mim {
+#sobre-mim {    
+    margin-bottom: 50px;
+    margin-top: 20px;
     margin-left: 12px;
     margin-right: 10px;
 
@@ -14,7 +16,7 @@
 
 #sobre-mim > h2 {
     text-align: center;
-    display: block;
+    font-style: 80px;
 }
 
 #sobre-mim > h3 {
@@ -29,12 +31,19 @@
     align-items: center;
 }
 
-.caixa-sobre-mim {
+/* .caixa-sobre-mim {
     background-color: var(--cor4);
     border-radius: 10px;
     padding: 40px;
+} */
+
+.caixa-sobre-mim {
+    display: flex;
 }
 
 .caixa-sobre-mim p {
     color: var(--cor3);
+    background-color: var(--cor4);
+    border-radius: 10px;
+    padding: 40px;
 }
