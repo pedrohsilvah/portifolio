@@ -7,12 +7,20 @@
 }
 
 header > nav {
+    /* deixa o nav fixado no topo */
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+
     display: flex;
     justify-content: space-between;
     height: 8vh;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    /* deixa a cor de fundo do nav transparente */
+    background-color: #24344cbd;
 }
 
 #navbar > ul {
@@ -28,6 +36,9 @@ header > nav {
 
 #navbar li > a {
     padding-block: 15px;
+}
+#navbar .nav-contatos {
+    padding-right: 20px;
 }
 
 #navbar li > a:hover {
