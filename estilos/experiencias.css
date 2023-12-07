@@ -8,8 +8,39 @@
 
 #experiencias {
     margin-top: 40px;
+    height: 100vh;
+    margin-bottom: 300px;
 }
 
 #experiencias h2 {
     text-align: center;
+}
+
+.experiencia01 {
+    background-color: var(--cor4);
+    padding: 40px;
+    text-align: center;
+    background: #000000;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.experiencia01 > img {
+    width: 10%;
+}
+
+.experiencia02 {
+    background-color: var(--cor4);
+    padding: 40px;
+    text-align: center;
+    background: #000000;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 10px;
+}
+
+.experiencia02 > img {
+    width: 10%;
 }
