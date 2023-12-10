@@ -50,3 +50,7 @@ a {
     text-decoration: none;
     letter-spacing: 2px;
 }
+
+ hr {
+    color: red;
+}

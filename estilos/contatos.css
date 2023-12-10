@@ -7,6 +7,32 @@
 }
 
 #contatos {
-    margin-top: 100vh;
+    margin-top: 40%;
     height: 50vh;
+}
+
+.conteudo-contatos {
+    text-align: center;
+    line-height: 30px;
+}
+
+.link-contatos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.link-contatos a {
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid var(--cor4);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.link-contatos a:hover {
+    color: var(--cor4);
+    background-color: var(--cor5);
+    transition: 1s;
+    border: 1px solid var(--cor3);
 }

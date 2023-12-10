@@ -8,6 +8,7 @@
 
 #projetos {
     height: 100vh;
+    margin-top: 80%;
 }
 
 #projetos img {
@@ -38,6 +39,13 @@
     border: 1px solid var(--cor4);
     border-radius: 5px;
     padding: 10px;
+}
+
+.link-projeto a:hover {
+    color: var(--cor4);
+    background-color: var(--cor5);
+    transition: 1s;
+    border: 1px solid var(--cor3);
 }
 
 .div-projeto {

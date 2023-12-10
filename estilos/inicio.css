@@ -63,3 +63,23 @@
     transition: 1s;
     border: 1px solid var(--cor3);
 }
+
+@media (max-width: 999px) {
+    .inicio-h {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .inicio-h h1{
+        display: block;
+        text-align: center;
+    }
+
+    .inicio-h3-space-link {
+        text-align: center;
+    }
+
+    .inicio-img > img {
+        display: none;
+    }
+}
