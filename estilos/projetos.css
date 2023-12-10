@@ -6,11 +6,6 @@
     --cor5:  #f24c6a;
 }
 
-#projetos {
-    height: 100vh;
-    margin-top: 80%;
-}
-
 #projetos img {
     max-width: 40%;
     border: 2px solid var(--cor5);
