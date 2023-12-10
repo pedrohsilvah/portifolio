@@ -29,6 +29,7 @@
 
 .experiencia01 > img {
     width: 10%;
+    margin-top: 15px;
 }
 
 .experiencia02 {
@@ -43,4 +44,13 @@
 
 .experiencia02 > img {
     width: 10%;
+    margin-top: 15px;
+}
+
+.nome-empresa {
+    color: var(--cor4);
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
