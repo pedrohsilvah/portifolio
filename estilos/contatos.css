@@ -6,6 +6,10 @@
     --cor5:  #f24c6a;
 }
 
+#contatos {
+    height: 45vh;
+}
+
 .conteudo-contatos {
     text-align: center;
     line-height: 30px;

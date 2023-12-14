@@ -50,6 +50,23 @@
     max-width: 450px;
 }
 
+.flutuar {
+    animation: flutuar 3s ease-in-out infinite;
+}
+
+/* Keyframes para a animação de flutuação */
+@keyframes flutuar {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Ajuste a altura da flutuação conforme necessário */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 #inicio a {
     margin-left: 10px;
     border: 1px solid var(--cor4);
