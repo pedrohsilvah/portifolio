@@ -30,6 +30,7 @@
     flex-direction: column;
     text-align: center;
     margin-top: 5rem;
+    margin-bottom: 5rem;
     line-height: 40px;
     width: 100%;
     transition: 0.5s;
@@ -55,11 +56,11 @@
 }
 
 .card-projetos img {
-    width: 50%;
+    width: 65%;
 }
 
 @media (max-width: 999px) {
     .card-projetos img {
-        width: 70%;
+        width: 95%;
     }
 }
