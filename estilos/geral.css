@@ -51,6 +51,8 @@ a {
     color: var(--cor1);
     text-decoration: none;
     letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 0.95rem;
 }
 
  hr {

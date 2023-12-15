@@ -8,6 +8,8 @@
 
 #contatos {
     height: 45vh;
+    margin-bottom: 150px;
+    
 }
 
 .conteudo-contatos {
@@ -18,20 +20,28 @@
 .link-contatos {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .link-contatos a {
-    margin-top: 20px;
-    margin-left: 10px;
-    border: 1px solid var(--cor4);
-    border-radius: 5px;
-    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 3px 5px 5px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 140px;
+    position: relative;
+    height: 40px;
 }
 
 .link-contatos a:hover {
-    color: var(--cor4);
-    background-color: var(--cor5);
     transition: 1s;
-    border: 1px solid var(--cor3);
+    color: var(--cor4);
+}
+
+
+.link-contatos img {
+    padding: 20px;
+    width: 35%;
 }

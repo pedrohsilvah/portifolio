@@ -1,0 +1,27 @@
+:root {
+    --cor1:  #dabdb5;
+    --cor2:  #ae565a;
+    --cor3:  #24344c;
+    --cor4:  #f69c75;
+    --cor5:  #f24c6a;
+}
+
+footer {
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    background-color: var(--cor4);
+}
+
+footer p {
+    color: var(--cor3);
+    line-height: 50px
+}
+
+footer span {
+    font-weight: 700;
+}
+

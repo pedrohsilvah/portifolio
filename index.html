@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="estilos/experiencias.css">
     <link rel="stylesheet" href="estilos/projetos.css">
     <link rel="stylesheet" href="estilos/contatos.css">
+    <link rel="stylesheet" href="estilos/footer.css">
 
 </head>
 <body>
@@ -37,9 +38,20 @@
                 <h3>Olá, Me chamo</h3>
                 <h1>Pedro H</h1>
                 <h3 class="inicio-h3-space-link">E eu sou um <span>Desenvolvedor Web</span></h3>
-                <a href="#">Linkedin</a>
-                <a href="#">Github</a>
-                <a href="#">Download CV</a>
+                <div class="link-inicio">
+                    <a href="#">
+                        <img src="img/icones/redes-sociais/icons8-linkedin-circundado-48.png" alt="linkedin">
+                        Linkedin
+                    </a>
+                    <a href="#">
+                        <img src="img/icones/redes-sociais/github (1).png" alt="github">
+                        Github
+                    </a>
+                    <a href="#">
+                        <img src="img/icones/redes-sociais/icons8-currículo-48 (2).png" alt="">
+                        Download CV
+                    </a>
+                </div>      
             </div>
             <div class="inicio-img">
                 <img class="flutuar" src="img/Luffy-PNG-Transparent-HD-Photo.png" alt="luffy">
@@ -49,7 +61,9 @@
             <h2>&#x1F3B4 Sobre mim</h2>
             <div class="caixa-sobre-mim">
                 <img class="my-foto" src="img/Design sem nome (3) (1).png" alt="Foto de Pedro">
-                <p>Olá, sou Pedro, tenho 18 anos e um acadêmico de Sistemas de Informação. Venho estudando e focando na área da Web, desde nov/2021 no meu ensino médio. Sempre fui apaixonado por tecnologia. Após 1 ano de estudo, consegui minha primeira vaga na área de TI como voluntariado para ser instrutor da <a href="">SkCoders</a>. Atualmente, estudo fazendo cursos, estudando e me profissionalizando para cada vez mais tornar-me um desenvolvedor web completo, porém com foco em Back-end.</p>
+                <p>
+                    Olá, sou Pedro, tenho 18 anos e um acadêmico de Sistemas de Informação. Venho estudando e focando na área da Web, desde nov/2021 no meu ensino médio. Sempre fui apaixonado por tecnologia. Após 1 ano de estudo, consegui minha primeira vaga na área de TI como voluntariado para ser instrutor da <a href="">SkCoders</a>. Atualmente, estudo fazendo cursos, estudando e me profissionalizando para cada vez mais tornar-me um desenvolvedor web completo, porém com foco em Back-end.
+                </p>
                 <h3>Habilidades</h3>
                 <div class="habilidades">
                         <div class="img-html"><img src="img/icones/icons8-html-96.png" alt="img-html"></div>
@@ -88,41 +102,72 @@
         </section>
         <section id="projetos">
             <h2>&#x1F4BB Projetos</h2>
-            <div class="div-projeto">
-                <div class="conteudo-projeto">
-                    <h3>Landing-Page</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eum, necessitatibus eaque delectus aliquam pariatur illum? Repudiandae unde velit sunt voluptas laudantium, molestias aperiam quas doloremque sapiente molestiae magni explicabo.</p>
-                    <div class="link-projeto">
-                        <a href="#">Site</a>
-                        <a href="#">Github</a>
+            <div class="projetos__wrapper">
+                <section class="projetos__card">
+                  <a href="https://gabrielaguaru.github.io/animaisfantasticos/" target="_blank">
+                  <img src="./assets/projeto2.png" alt="" class="projeto-img">
+                </a>
+                  <h2>Landing-page</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nulla quo qui eum, id reiciendis rerum? Id, quaerat exercitationem harum eos molestias cumque omnis eum in, ab tenetur expedita sunt!
+                  </p>
+                  <span>Tecnologias usadas no projeto: </span>
+                  <a href="" target="_blank">
+                    <div class="projetos__card-button">
+                      <img src="#" alt="Img">
+                      Visualizar
                     </div>
-                </div>
-                <img src="img/Captura de tela landing page tela pc.png" alt="projeto01">
-            </div>
-            <hr>
-            <div class="div-projeto">
-                <div class="conteudo-projeto">
-                    <h3>Landing-Page</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eum, necessitatibus eaque delectus aliquam pariatur illum? Repudiandae unde velit sunt voluptas laudantium, molestias aperiam quas doloremque sapiente molestiae magni explicabo.</p>
-                    <div class="link-projeto">
-                        <a href="#">Site</a>
-                        <a href="#">Github</a>
-                    </div>
-                </div>
-                <img src="img/Captura de tela landing page tela pc.png" alt="projeto01">
-            </div>
-            <hr>
-            <div class="div-projeto">
-                <div class="conteudo-projeto">
-                    <h3>Landing-Page</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eum, necessitatibus eaque delectus aliquam pariatur illum? Repudiandae unde velit sunt voluptas laudantium, molestias aperiam quas doloremque sapiente molestiae magni explicabo.</p>
-                    <div class="link-projeto">
-                        <a href="#">Site</a>
-                        <a href="#">Github</a>
-                    </div>
-                </div>
-                <img src="img/Captura de tela landing page tela pc.png" alt="projeto01">
-            </div>
+                  </a>
+                </section>
+                <section class="projetos__card">
+                    <a href="https://gabrielaguaru.github.io/animaisfantasticos/" target="_blank">
+                    <img src="./assets/projeto2.png" alt="" class="projeto-img">
+                  </a>
+                    <h2>Landing-page</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nulla quo qui eum, id reiciendis rerum? Id, quaerat exercitationem harum eos molestias cumque omnis eum in, ab tenetur expedita sunt!
+                    </p>
+                    <span>Tecnologias usadas no projeto: </span>
+                    <a href="" target="_blank">
+                      <div class="projetos__card-button">
+                        <img src="#" alt="Img">
+                        Visualizar
+                      </div>
+                    </a>
+                  </section>
+                  <section class="projetos__card">
+                    <a href="https://gabrielaguaru.github.io/animaisfantasticos/" target="_blank">
+                    <img src="./assets/projeto2.png" alt="" class="projeto-img">
+                  </a>
+                    <h2>Landing-page</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nulla quo qui eum, id reiciendis rerum? Id, quaerat exercitationem harum eos molestias cumque omnis eum in, ab tenetur expedita sunt!
+                    </p>
+                    <span>Tecnologias usadas no projeto: </span>
+                    <a href="" target="_blank">
+                      <div class="projetos__card-button">
+                        <img src="#" alt="Img">
+                        Visualizar
+                      </div>
+                    </a>
+                  </section>
+                  <section class="projetos__card">
+                    <a href="https://gabrielaguaru.github.io/animaisfantasticos/" target="_blank">
+                    <img src="./assets/projeto2.png" alt="" class="projeto-img">
+                  </a>
+                    <h2>Landing-page</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nulla quo qui eum, id reiciendis rerum? Id, quaerat exercitationem harum eos molestias cumque omnis eum in, ab tenetur expedita sunt!
+                    </p>
+                    <span>Tecnologias usadas no projeto: </span>
+                    <a href="" target="_blank">
+                      <div class="projetos__card-button">
+                        <img src="#" alt="Img">
+                        Visualizar
+                      </div>
+                    </a>
+                  </section>
+              </div>
         </section>
         <section id="contatos">
             <h2>&#x1F4DE Contatos</h2>
@@ -131,10 +176,28 @@
                 <p>E-mail: pedrohsilvasant@gmail.com</p>
             </div>
             <div class="link-contatos">
-                <a href="#">WhatsApp</a>
-                <a href="#">Linkedin</a>
+                <a href="#">
+                    <img src="img/icones/redes-sociais/whatsapp.png" alt="Whatsapp">
+                    Whatsapp
+                </a>
+                <a href="#">
+                    <img src="img/icones/redes-sociais/linkedin.png" alt="Linkedin">
+                    Linkedin
+                </a>
+                <a href="#">
+                    <img src="img/icones/redes-sociais/instagram.png" alt="Instagram">
+                    Instagram
+                </a>
+                <a href="#">
+                    <img src="img/icones/redes-sociais/github (1).png" alt="github">
+                    Github
+                </a>
             </div>
         </section>
+        <footer>
+            <p>"Em terra de programador, o céu é o limite." <span>- Júlio Developer</span></p>
+            <p>© 2023 Desenvolvido por Pedro H - Versão 1.0</p>
+        </footer>
     </main>
     <script src="js/mobile-navbar.js"></script>
 </body>

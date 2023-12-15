@@ -45,6 +45,26 @@
     color: var(--cor4);
 }
 
+.link-inicio {
+    display: flex;
+    
+}
+
+#inicio a {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 3px 5px 5px;
+    justify-content: space-evenly;
+    width: 140px;
+    position: relative;
+    margin-top: 1rem;
+    background-color: #24344c9a;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 1.5px;
+    height: 40px;
+}
 
 .inicio-img > img {
     max-width: 450px;
