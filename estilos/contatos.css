@@ -45,3 +45,9 @@
     padding: 20px;
     width: 35%;
 }
+
+@media (max-width: 999px) {
+    #contatos {
+        height: 30vh;
+    }
+}

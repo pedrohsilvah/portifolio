@@ -53,3 +53,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media (max-width: 999px) {
+    .my-foto {
+        width: 400px;
+    }
+}
