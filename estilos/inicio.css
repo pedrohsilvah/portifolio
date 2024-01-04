@@ -72,9 +72,9 @@
 
 /* Possível erro que está gerando uma barra do body lateral */
 
-/* .flutuar {
+.flutuar {
     animation: flutuar 3s ease-in-out infinite;
-} */
+}
 
 /* Keyframes para a animação de flutuação */
 @keyframes flutuar {
