@@ -70,9 +70,11 @@
     max-width: 450px;
 }
 
-.flutuar {
+/* Possível erro que está gerando uma barra do body lateral */
+
+/* .flutuar {
     animation: flutuar 3s ease-in-out infinite;
-}
+} */
 
 /* Keyframes para a animação de flutuação */
 @keyframes flutuar {
@@ -118,5 +120,12 @@
 
     .inicio-img > img {
         display: none;
+    }
+    
+    .link-inicio {
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: column;
     }
 }
