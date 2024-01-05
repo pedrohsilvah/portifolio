@@ -20,7 +20,8 @@
 }
 
 .my-foto{
-    width: 500px;
+    /* width: 500px; */
+    width: 40%;
     display: flex;  
     justify-content: center;
     margin: auto;
@@ -56,6 +57,21 @@
 
 @media (max-width: 999px) {
     .my-foto {
-        width: 400px;
+        width: 60%;
+    }
+
+    .caixa-sobre-mim {
+        padding: 10px;
+    }
+
+    .caixa-sobre-mim p {
+        padding: 20px;
     }
 }
+
+@media (max-width: 740px) {
+    .my-foto {
+        width: 100%;
+    }
+}
+
