@@ -50,6 +50,12 @@
     width: 65%;
 }
 
+.tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 @media (max-width: 999px) {
     .card-projetos img {
         width: 95%;
