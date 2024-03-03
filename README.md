@@ -15,7 +15,6 @@ Criei o protifólio com o intuito de mostrar minhas habilidades e experiências.
 - HTML
 - CSS
 - JavaScript
-- Bootstrap
 
 # Autor
 
